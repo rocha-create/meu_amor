@@ -1,0 +1,42 @@
+
+  
+body {
+    background: linear-gradient(to bottom, #7c0a02,#fa8072);
+    margin: 0; /* Remove a margem padrão do body */
+    min-height: 100vh; /* Garante que o gradiente cubra toda a altura da tela */
+    
+}
+.mae{
+    margin-top: 100px;
+    display: flex; /* Alinha os cards em linha */
+    overflow-x: auto; /* Adiciona barra de rolagem horizontal se necessário */
+    align-items: center; /* Impede que os cards quebrem para a próxima linha */
+    flex-wrap: wrap;
+    padding: 10px; /* Adiciona algum espaço ao redor dos cards */
+}
+
+.card{
+    background-color: black;
+    color: white;
+    width: 100%; /* Defina a largura desejada para os cards */
+    margin-right: 10px; /* Adiciona espaço entre os cards */
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+#ultima{
+    margin-bottom: 100px;
+}
+h1{
+    text-align: center;
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+}
+
+#h1_top{ 
+    margin-top: 30%;
+}
+#h1_bottom{ 
+    margin-bottom: 30%;
+}
